@@ -1,0 +1,3 @@
+[submodule "themes/papersite-template"]
+	path = themes/papersite-template
+	url = git@git.attacking.systems:papers/riscv_difffuzz/ghostwrite-papersite-template.git
