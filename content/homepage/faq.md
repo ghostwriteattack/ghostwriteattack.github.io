@@ -35,7 +35,7 @@ Cloud service providers should disable the vector extension on any vulnerable CP
 {{< accordion title="What are the performance impacts of disabling the vector extension?" >}}
 Disabling the vector extension significantly reduces the CPU's performance, especially for tasks that benefit from parallel processing and handling large data sets. 
 Applications relying heavily on these features may experience slower performance or reduced functionality.
-In our benchmark using [rvv-bench](https://github.com/camel-cdr/rvv-bench), we see up to 77% overhead when disabling the vector extension. 
+In our benchmark using [rvv-bench](https://github.com/camel-cdr/rvv-bench), we see up to 33% overhead when disabling the vector extension. 
 {{< /accordion >}}
 
 {{< accordion title="Is this a side-channel or transient-execution attack?" >}}
