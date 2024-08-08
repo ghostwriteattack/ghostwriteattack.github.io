@@ -8,11 +8,11 @@ slug: "faq"
 
 {{< accordion title="Am I affected by this vulnerability?" open=true >}}
 Most likely, you are not affected directly.
-Only individuals that use vulnerable RISC-V hardware, such as C910-based single-board computers (SBCs), cloud deployments, or other multi-party computing solutions are directly affected.
+Only individuals that use vulnerable RISC-V hardware, such as C910-based or C920-based single-board computers (SBCs), cloud deployments, or other multi-party computing solutions are directly affected.
 Even though you might not be affected directly, the chance is high that you might already or in the future interact with vulnerable devices.
 {{< /accordion >}}
 
-{{< accordion title="How do I know if my device uses the T-Head XuanTie C910 CPU?" >}}
+{{< accordion title="How do I know if my device uses the T-Head XuanTie C910 or C920 CPU?" >}}
 Most consumer devices list their CPU specifications in their technical details or documentation. 
 You can check the manufacturer's website, user manual, or device settings for this information. 
 {{< /accordion >}}
@@ -63,12 +63,12 @@ As of now, there are no specific tools or methods to detect if GhostWrite is bei
 
 {{< accordion title="Does this mean that RISC-V is bad?" >}}
 GhostWrite is not a problem with the RISC-V ISA.
-Only the T-Head XuanTie C910 CPU, an implementation of RISC-V, is vulnerable to GhostWrite due to a bug in it's design.
+Only the T-Head XuanTie C910 and C920 CPUs, implementations of RISC-V, are vulnerable to GhostWrite due to a bug in their design.
 {{< /accordion >}}
 
 {{< accordion title="Are there any alternative RISC-V CPUs that do not have this vulnerability?" >}}
 Yes, many other RISC-V CPUs are not affected by GhostWrite. 
-The vulnerability is specific to the T-Head XuanTie C910 CPU.
+The vulnerability is specific to the T-Head XuanTie C910 and C920 CPUs.
 {{< /accordion >}}
 
 {{< accordion title="Can I use the logo?" last=true >}}

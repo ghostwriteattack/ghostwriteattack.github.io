@@ -8,7 +8,7 @@ header_menu: true
 date: 07-10-2023
 ---
 
-The GhostWrite vulnerability affects the T-Head XuanTie C910 RISC-V CPU. 
+The GhostWrite vulnerability affects the T-Head XuanTie C910 and C920 RISC-V CPUs. 
 This vulnerability allows unprivileged attackers, even those with limited access, to read and write any part of the computer's memory and to control peripheral devices like network cards. 
 GhostWrite renders the CPU's security features ineffective and cannot be fixed without disabling around half of the CPU's functionality.
 
