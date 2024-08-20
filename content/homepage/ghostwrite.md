@@ -12,7 +12,7 @@ slug: "details"
 {{< title title="GhostWrite." subtitle="Writing Arbitrary Physical Memory.">}}
 
 
-GhostWrite is a bug in the T-Head XuanTie C910, one of the fastest RISC-V CPUs available. 
+GhostWrite is a bug in the T-Head XuanTie C910 and C920, two of the fastest RISC-V CPUs available. 
 Unlike side-channel attacks or [transient-execution attacks](https://transient.fail/), GhostWrite is a direct CPU bug. 
 This CPU has faulty instructions in its vector extension, an add-on to the RISC-V ISA designed to handle larger data values than the base ISA.
 
