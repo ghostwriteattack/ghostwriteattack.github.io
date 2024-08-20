@@ -26,6 +26,7 @@ The only mitigation is to disable the vector extension in the CPU, which unfortu
 {{< accordion title="How to mitigate GhostWrite? How do I protect devices against this vulnerability?" >}}
 Luckily, the vulnerable instructions lie in the vector extension, which can be disabled by the operating system.
 This fully mitigates GhostWrite, but also fully disables vector instructions on the CPU.
+Linux can be compiled with `CONFIG_VECTOR=n`, which disables all vector-related code paths and thereby keeps the vector extension disabled.
 {{< /accordion >}}
 
 {{< accordion title="What should cloud service providers do to protect their users?" >}}
