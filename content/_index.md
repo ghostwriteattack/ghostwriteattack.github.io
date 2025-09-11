@@ -12,16 +12,16 @@ The GhostWrite vulnerability affects the T-Head XuanTie C910 and C920 RISC-V CPU
 This vulnerability allows unprivileged attackers, even those with limited access, to read and write any part of the computer's memory and to control peripheral devices like network cards. 
 GhostWrite renders the CPU's security features ineffective and cannot be fixed without disabling around half of the CPU's functionality.
 
-{{< linkbutton title="READ" icon="fas fa-book fa-1x" url="/riscvuzz.pdf" >}}
+{{< linkbutton title="READ" icon="fas fa-book fa-1x" url="/riscover_ccs25.pdf" >}}
 
 <div class="columns" style="margin-top: 1rem">
     <div>
 {{< modalbutton title="CITE" icon="fa-solid fa-quote-left" id="citebutton" classes="buttonoutline buttonsmall" >}}
-@misc{Thomas2024RISCVuzz,
-  title={{RISCVuzz}: Discovering Architectural {CPU} Vulnerabilities via Differential Hardware Fuzzing},
-  author={Thomas, Fabian and Hetterich, Lorenz and Zhang, Ruiyi and Weber, Daniel and Gerlach, Lukas and Schwarz, Michael},
-  howpublished = {\url{https://ghostwriteattack.com/}},
-  year={2024},
+@inproceedings{Thomas2025Ghostwrite,
+ author = {Fabian Thomas and Eric Garc{\'i}a Arribas and Lorenz Hetterich and Daniel Weber and Lukas Gerlach and Ruiyi Zhang and Michael Schwarz},
+ booktitle = {CCS},
+ title = {{RISCover: Automatic Discovery of User-exploitable Architectural Security Vulnerabilities in Closed-Source RISC-V CPUs}},
+ year = {2025}
 }
 {{< /modalbutton >}}
     </div>
