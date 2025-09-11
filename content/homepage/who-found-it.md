@@ -19,6 +19,6 @@ slug: "who-found-it"
 - {{% person name="Lorenz Hetterich" url="https://roots.ec/people/lorenz-hetterich/" aff="CISPA Helmholtz Center for Information Security" affurl="https://cispa.de" %}}
 - {{% person name="Ruiyi Zhang" url="https://zhangruiyi.me/" aff="CISPA Helmholtz Center for Information Security" affurl="https://cispa.de" %}}
 - {{% person name="Daniel Weber" url="https://d-we.me/" aff="CISPA Helmholtz Center for Information Security" affurl="https://cispa.de" %}}
-- {{% person name="Lukas Gerlach" url="https://roots.ec/people/lukas-gerlach/" aff="CISPA Helmholtz Center for Information Security" affurl="https://cispa.de" %}}
+- {{% person name="Lukas Gerlach" url="https://lukasgerlach.me/" aff="CISPA Helmholtz Center for Information Security" affurl="https://cispa.de" %}}
 - {{% person name="Michael Schwarz" url="https://misc0110.net/" aff="CISPA Helmholtz Center for Information Security" affurl="https://cispa.de" %}}
 {{% /center %}}
