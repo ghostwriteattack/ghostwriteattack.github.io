@@ -22,4 +22,5 @@ Vulnerable devices include:
 - [Milk-V Meles](https://milkv.io/meles), SBC
 - [BeagleV-Ahead](https://www.beagleboard.org/boards/beaglev-ahead), SBC
 
-To protect against this vulnerability, you can disable the vulnerable vector extension entirely. 
+To protect against this vulnerability, you can disable the vulnerable vector extension entirely.
+From Linux version `6.14` onward, the kernel applies this mitigation automatically.
