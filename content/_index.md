@@ -14,7 +14,7 @@ GhostWrite renders the CPU's security features ineffective and cannot be fixed w
 
 {{< linkbutton title="READ" icon="fas fa-book fa-1x" url="/riscover_ccs25.pdf" aria_label="Read the paper" >}}
 
-<div class="columns" style="margin-top: 1rem">
+<div class="columns home-cta" style="margin-top: 1rem">
     <div>
 {{< modalbutton title="CITE" icon="fa-solid fa-quote-left" id="citebutton" classes="buttonoutline buttonsmall" aria_label="Cite the paper" >}}
 @inproceedings{Thomas2025Ghostwrite,
