@@ -32,9 +32,9 @@ GhostWrite renders the CPU's security features ineffective and cannot be fixed w
         {{< linkbutton title="CVE" icon="fas fa-bug" url="https://nvd.nist.gov/vuln/detail/CVE-2024-44067" classes="buttonoutline buttonsmall" aria_label="CVE-2024-44067" >}}
     </div>
     <div>
-        {{< linkbutton title="ARTIFACTS" icon="fas fa-box-open" url="https://github.com/cispa/RISCover-artifacts" classes="buttonoutline buttonsmall" aria_label="Paper artifacts" >}}
+        {{< linkbutton title="DATA" icon="fas fa-box-open" url="https://github.com/cispa/RISCover-artifacts" classes="buttonoutline buttonsmall" aria_label="Paper artifacts" >}}
     </div>
     <div>
-        {{< linkbutton title="FUZZER" icon="fab fa-github" url="https://github.com/cispa/RISCover" classes="buttonoutline buttonsmall" aria_label="RISCover framework" >}}
+        {{< linkbutton title="CODE" icon="fab fa-github" url="https://github.com/cispa/RISCover" classes="buttonoutline buttonsmall" aria_label="RISCover framework" >}}
     </div>
 </div>
